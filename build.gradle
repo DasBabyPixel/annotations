@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'de.dasbabypixel'
-version = '0.0.1-SNAPSHOT'
+version = '0.1'
 
 java {
     withSourcesJar()
