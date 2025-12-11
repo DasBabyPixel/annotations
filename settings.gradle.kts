@@ -2,12 +2,9 @@ import org.gradle.api.initialization.resolve.RepositoriesMode
 
 dependencyResolutionManagement {
     repositories {
-        maven {
-            url 'https://nexus.darkcube.eu/repository/dasbabypixel'
-        }
         mavenCentral()
     }
     repositoriesMode = RepositoriesMode.FAIL_ON_PROJECT_REPOS
 }
 
-rootProject.name = 'annotations'
+rootProject.name = "annotations"
