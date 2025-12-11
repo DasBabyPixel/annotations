@@ -25,8 +25,8 @@ publishing {
         }
     }
     repositories {
-        maven("https://nexus.darkcube.eu/repository/dasbabypixel") {
-            name = "DarkCube"
+        maven("https://reposilite.dasbabypixel.de/stracciatella") {
+            name = "Stracciatella"
             credentials(PasswordCredentials::class.java)
         }
     }
